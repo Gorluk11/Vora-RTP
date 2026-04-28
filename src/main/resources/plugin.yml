@@ -1,0 +1,21 @@
+name: VoraRTP
+version: "${version}"
+main: dev.vora.rtp.VoraRTP
+api-version: "1.21"
+folia-supported: true
+authors:
+  - VORA
+
+commands:
+  rtp:
+    description: RTP
+    usage: /rtp
+    permission: vora.rtp.use
+
+permissions:
+  vora.rtp.use:
+    default: true
+  vora.rtp.reload:
+    default: op
+  vora.rtp.bypass.cooldown:
+    default: op

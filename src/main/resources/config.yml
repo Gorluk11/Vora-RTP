@@ -1,0 +1,182 @@
+prefix: "&8❖ &fᴠᴏʀᴀ &8» "
+
+messages:
+  player-only: "&fʙᴜ ᴋᴏᴍᴜᴛ sᴀᴅᴇᴄᴇ ᴏʏᴜɴᴄᴜʟᴀʀ ɪᴄɪɴᴅɪʀ."
+  no-permission: "&cʙᴜ ᴋᴏᴍᴜᴛᴜ ᴋᴜʟʟᴀɴᴍᴀ ɪᴢɴɪɴ ʏᴏᴋ."
+  busy: "&cᴢᴀᴛᴇɴ ʙɪʀ ʀᴛᴘ ɪşʟᴇᴍɪ ᴅᴇᴠᴀᴍ ᴇᴅɪʏᴏʀ."
+  cooldown: "&cʀᴛᴘ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪᴄɪɴ &6{seconds} &csᴀɴɪʏᴇ ʙᴇᴋʟᴇ."
+  countdown-cancelled: "&cʜᴀʀᴇᴋᴇᴛ ᴇᴛᴛɪɴ, ʀᴛᴘ ɪᴘᴛᴀʟ ᴇᴅɪʟᴅɪ."
+  teleporting: "&fʀᴛᴘ ʙᴀşʟᴀᴛıʟıʏᴏʀ..."
+  no-world: "&cʜᴇᴅᴇꜰ ᴅüɴʏᴀ ʙᴜʟᴜɴᴀᴍᴀᴅı."
+  failed: "&cɢüᴠᴇɴʟɪ ʙɪʀ ᴋᴏɴᴜᴍ ʙᴜʟᴜɴᴀᴍᴀᴅı."
+  teleport-failed: "&cʀᴛᴘ ʙᴀşᴀʀısıᴢ ᴏʟᴅᴜ."
+  success: "&aʀᴛᴘ ᴛᴀᴍᴀᴍʟᴀɴᴅı."
+  reloaded: "&aᴄᴏɴꜰɪɢ ʏᴇɴɪᴅᴇɴ ʏüᴋʟᴇɴᴅɪ."
+  world-disabled: "&cʙᴜ ᴅüɴʏᴀ ᴋᴀᴘᴀʟı."
+
+cooldown:
+  seconds: 5
+  bypass-permission: "vora.rtp.bypass.cooldown"
+
+countdown:
+  seconds: 5
+  cancel-on-move: true
+
+titles:
+  countdown:
+    title: "&6{seconds}"
+    subtitle: "&fʀᴛᴘ ɪᴄɪɴ ʙᴇᴋʟᴇ"
+    fade-in: 0
+    stay: 18
+    fade-out: 2
+
+  success:
+    title: "&a✦"
+    subtitle: "&fʀᴛᴘ ᴛᴀᴍᴀᴍ"
+    fade-in: 5
+    stay: 25
+    fade-out: 10
+
+sounds:
+  menu-open:
+    enabled: true
+    sound: "BLOCK_CHEST_OPEN"
+    volume: 0.6
+    pitch: 1.2
+
+  menu-click:
+    enabled: true
+    sound: "UI_BUTTON_CLICK"
+    volume: 0.7
+    pitch: 1.0
+
+  countdown-tick:
+    enabled: true
+    sound: "BLOCK_NOTE_BLOCK_HAT"
+    volume: 0.45
+    pitch: 1.8
+
+  countdown-cancel:
+    enabled: true
+    sound: "ENTITY_VILLAGER_NO"
+    volume: 0.7
+    pitch: 1.0
+
+  teleport:
+    enabled: true
+    sound: "ENTITY_ENDERMAN_TELEPORT"
+    volume: 0.8
+    pitch: 1.1
+
+menu:
+  title: "&8ᴠᴏʀᴀ &7│ &fʀᴛᴘ"
+  size: 27
+  filler: BLACK_STAINED_GLASS_PANE
+
+  worlds:
+    normal:
+      enabled: true
+      slot: 10
+      material: GRASS_BLOCK
+      name: "&a&lᴅüɴʏᴀ"
+      lore:
+        - ""
+        - "&7ɴᴏʀᴍᴀʟ ᴅüɴʏᴀ ɪᴄɪɴ"
+        - "&7ɢüᴠᴇɴʟɪ ʀᴛᴘ ɢöɴᴅᴇʀɪʀ."
+        - ""
+        - "&a▸ &fᴛıᴋʟᴀ"
+
+    nether:
+      enabled: true
+      slot: 13
+      material: NETHERRACK
+      name: "&c&lɴᴇᴛʜᴇʀ"
+      lore:
+        - ""
+        - "&7ɴᴇᴛʜᴇʀ ɪᴄɪɴ"
+        - "&7ɢüᴠᴇɴʟɪ ʀᴛᴘ ɢöɴᴅᴇʀɪʀ."
+        - ""
+        - "&c▸ &fᴛıᴋʟᴀ"
+
+    end:
+      enabled: true
+      slot: 16
+      material: END_STONE
+      name: "&d&lᴇɴᴅ"
+      lore:
+        - ""
+        - "&7ᴇɴᴅ ɪᴄɪɴ"
+        - "&7ɢüᴠᴇɴʟɪ ʀᴛᴘ ɢöɴᴅᴇʀɪʀ."
+        - ""
+        - "&d▸ &fᴛıᴋʟᴀ"
+
+    disabled-item:
+      material: BARRIER
+      name: "&c&lᴋᴀᴘᴀʟı"
+      lore:
+        - ""
+        - "&7ʙᴜ ᴅüɴʏᴀ ᴀᴋᴛɪꜰ ᴅᴇğɪʟ."
+
+worlds:
+  normal: "world"
+  nether: "world_nether"
+  end: "world_the_end"
+
+teleport:
+  max-attempts: 30
+  chunk-timeout-ms: 10000
+
+  location-cache:
+    enabled: true
+    size-per-world: 5
+    refill-interval-ticks: 600
+
+  overworld:
+    min-distance: 200
+    max-distance: 5000
+    search-depth: 8
+
+  nether:
+    min-distance: 100
+    max-distance: 2000
+    min-y: 24
+    max-y: 118
+
+  end:
+    min-distance: 200
+    max-distance: 3000
+    search-depth: 8
+    support-check-depth: 8
+    min-supported-columns: 2
+
+  dangerous-materials:
+    - WATER
+    - LAVA
+    - FIRE
+    - SOUL_FIRE
+    - MAGMA_BLOCK
+    - CACTUS
+    - SWEET_BERRY_BUSH
+    - WITHER_ROSE
+    - POWDER_SNOW
+    - CAMPFIRE
+    - SOUL_CAMPFIRE
+    - POINTED_DRIPSTONE
+    - COBWEB
+    - SCAFFOLDING
+
+  unsafe-ground-materials:
+    - WATER
+    - LAVA
+    - FIRE
+    - SOUL_FIRE
+    - MAGMA_BLOCK
+    - CACTUS
+    - SCAFFOLDING
+
+  unsafe-near-materials:
+    - WATER
+    - LAVA
+    - FIRE
+    - SOUL_FIRE
+    - MAGMA_BLOCK
